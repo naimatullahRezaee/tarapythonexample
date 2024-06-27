@@ -36,7 +36,12 @@
 #         print(i)
     
 
-open('file.txt', 'x' )
+# open('file.txt', 'x' )
 
-print('file created')
+# print('file created')
 
+
+
+f = open('new.txt','r')
+
+print(f.read())
